@@ -96,12 +96,12 @@ iwr -useb "https://luatools.vercel.app/install-plugin.ps1" | iex
 
 ## ▶️ Como usar
 
-* Clique duas vezes em:
+* Execute como adm:
 ```
 run.bat
 ```
 
-(Na primeira execução, ele pode demorar um pouco, pois está instalando o Python e os Plugins necessários caso não tenha ainda).
+(Na primeira execução, ele pode demorar um pouco, pois esta instalando as dependencias necessárias).
 
 ---
 
@@ -123,6 +123,11 @@ D:\Program Files (x86)\Steam
 ### 🔹 3 - Importar backup
 
 * Seleciona a pasta do backup e restaura automaticamente os seus saves
+
+### ⚠ Tambem devera escolher uma das opções de exporte
+
+("1 - Salvar TUDO")
+("2 - Biblioteca + saves + conquistas + horas (sem screenshots)")
 
 ---
 

@@ -1,4 +1,17 @@
 @echo off
+
+:: Verifica se é administrador
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+    echo.
+    echo ====================================
+    echo ERRO: Me execute como administrador!
+    echo ====================================
+    echo.
+    pause
+    exit
+)
+
 cd /d "%~dp0"
 
 echo ================================
